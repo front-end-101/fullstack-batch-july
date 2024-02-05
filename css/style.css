@@ -1,20 +1,68 @@
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+*{
+    padding: 0;
+    margin: 0;    
 }
 
-.navbar ul{
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
+/* html{
+    font-size: 100px;
+} */
+
+/* .section1{
+    color: lightcoral;
+    font-size: 30px;
+} */
+
+.section1 .heading{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-variant: small-caps; */
+    text-transform: uppercase;
+    letter-spacing: 30px;
 }
 
-.navbar ul li{
-    border: 1px solid lightblue;
-    padding: 5px;
+p{
+    word-spacing: 20px;
+    line-height: 20px;
 }
 
-.navbar ul a{
-    text-decoration: none;
-}
+/* 
+.box{
+    width: 50vw;
+    height: 50vh;
+    background:#59B4C3;
+    box-sizing: border-box;
+} */
+
+/* .child{
+    width: 100%;
+    height: 50%;
+    background: red;
+} */
+
+
+/* units & sizes 
+em 
+rem
+vh
+vw
+%
+
+rgb()
+rgba()
+hsl()
+hsla()
+hex
+
+
+Typography
+fontsize
+family
+weight
+style
+word-spacing
+letter-spacing
+
+*/
