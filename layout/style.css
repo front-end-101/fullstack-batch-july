@@ -1,0 +1,77 @@
+.container{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* .square{
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+
+.square:hover{
+    transform: te;
+} */
+
+
+/* justify-content - horizontally 
+    align-items - vertically
+*/
+
+.parent{
+    width: 100vw;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr 1fr 1fr;
+
+}
+
+.child{
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+/* position
+        relative
+        absolute
+
+    flexbox
+    flex
+    jcc
+    aic
+    flex-direction
+    flex-wrap
+    gap
+    row-gap
+    column-gap
+    flex
+     
+
+    grid
+    #grid-template-columns
+    #grid-template-rows
+    repeat()
+    grid-column-start
+    grid-column-end
+    grid-row-start
+    grid-row-end
+    grid-area */

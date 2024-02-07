@@ -1,46 +1,120 @@
 *{
-    padding: 0;
+    /* padding: 0; */
     margin: 0;    
-}
-
-/* html{
-    font-size: 100px;
+    box-sizing: border-box;
+}                                   
+/* 
+li{
+    width: 200px;
+    line-height: 30px;
+    padding: 10px;
+    border: 1px solid lightblue;
 } */
 
-/* .section1{
-    color: lightcoral;
-    font-size: 30px;
-} */
 
-.section1 .heading{
-    color: green;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-variant: small-caps; */
-    text-transform: uppercase;
-    letter-spacing: 30px;
+
+a{
+    text-shadow: 2px 3px 2px;
+    text-decoration: none;
+    text-decoration-color: cadetblue;
+    text-transform: lowercase;
 }
 
-p{
-    word-spacing: 20px;
-    line-height: 20px;
+a:hover{
+    /* background: red; */
+}
+
+a:active{
+    color: aqua;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover,a:focus{
+    border: 1px solid red;
+    color: brown;
 }
 
 /* 
+list
+links
+    column
+    display
+    float
+
+*/
+
+
+
+
+.list{
+    list-style-type: lower-roman;
+    /* display: none; */
+}
+
+.list li{
+    width: 200px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.list li:hover{
+    background: #a05656;
+    color: hsl(107, 51%, 60%);
+    cursor: pointer;
+}
+
 .box{
-    width: 50vw;
-    height: 50vh;
-    background:#59B4C3;
-    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+.article-float{
+    color: lightblue;
+}
+
+.article-float img{
+    float: right;
+}
+
+
+.col{
+    columns: 4 200px;
+    column-gap: 10px;
+    column-rule: 1px solid red;
+}
+
+/* .list li:nth-child(even){
+    background: #e4b5b5;
 } */
 
-/* .child{
-    width: 100%;
-    height: 50%;
-    background: red;
-} */
+.display-p{
+    color: brown;
+}
+
+.display-p span{
+    display: inline-block;
+    border:1px solid red;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* units & sizes 
@@ -64,5 +138,59 @@ weight
 style
 word-spacing
 letter-spacing
+
+styling links:
+    active,
+    visited,
+    focus,hover,
+    text-transform,
+    text-decoration,
+    text-shadow
+
+list style: 
+    ul - list-style-type-bullet,disc,circle,upper roman etc,
+    list-style-position
+
+    display:
+    inline
+    block
+    inline-block
+    none
+
+    float
+        right
+        left
+
+    column:
+    column: 2, column-width: ,
+    column 4 250px;
+    column-gap
+    column-rule
+
+    position
+        relative
+        absolute
+
+    flexbox
+    flex
+    jcc
+    aic
+    flex-direction
+    flex-wrap
+    gap
+    row-gap
+    column-gap
+    flex
+     
+
+    grid
+    #grid-template-columns
+    #grid-template-rows
+    repeat()
+    grid-column-start
+    grid-column-end
+    grid-row-start
+    grid-row-end
+    grid-area
 
 */
