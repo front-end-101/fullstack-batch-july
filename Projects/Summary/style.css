@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(rgb(34, 200, 81),rgb(118, 35, 213));
+}
+
+.container .card{
+    width: 300px;
+    /* height: 500px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-img{
+    flex: 1;
+
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-desc{
+    flex: 4;
+    padding: 20px 16px;
+    text-align: center;
+}
+.card-desc p{
+    font-size: 12px;
+    color: rgb(196, 192, 192);
+}
+
+.card-desc .plan{
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 14px 0;
+}
+
+.plan .plan_price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.plan_price .icon{
+    width: 40px;
+    height: 40px;
+    background: lightgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .payment-btn{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(62, 62, 224);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: #727272 2px 2px 15px 0px;
+}
+
+.card .cancel-btn{
+    font-size: 12px;
+}
