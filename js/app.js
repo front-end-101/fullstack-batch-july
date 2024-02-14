@@ -85,13 +85,93 @@
 
 //(IIFE) Immediatly invoked fucntion expression
 
-(() => {
-    console.log("IIFE")
-})()
+// (() => {
+//     console.log("IIFE")
+// })()
+
+// 
+
+// 3 fizz
+// 5 buzz
+// 15 fizzbuzz
+
+// if(null){
+//     console.log("TRUE")
+// }else if(2 == 2){
+//     console.log("FALSE")
+// }else{
+
+// }
+
+// const role = "admin";
+
+// switch (role) {
+//     case "admin":
+//         // return admion auth logic
+//     case "user":
+//         // user logic
+//         break;
+//     default:
+//         // return "Not authenticated!"
+// }
+
+// Falsy - 0 , "" , null , undefined, NAN
+// 
+
+
+// loops
+// for(let i = 1; i < 50; i++){
+//     if(i % 3 === 0 && i % 5 === 0){
+//         console.log("fizzBuzz")
+//     }else if(i % 5 === 0){
+//         console.log("buzz")
+//     }else if(i % 3 === 0 ){
+//         console.log("fizz")
+//     }else{
+//         console.log(i)
+//     }
+// }
+
+// let x = 1;
+// while (x <= 10) {
+//     console.log(x)
+//     x++;
+// }
+
+
+/* 
+    hoisting
+    data types in js
+    var let const
+    function type 
+        - regular function
+        - arrow function
+        - anonymous function
+        - IIFE
+    conditionals - if else
+    loops
+    array
+*/ 
+
+// Array
+const arr = [];
+console.log(arr);
+arr.push(1)
+arr.push(4)
+arr.push(7)
+console.log(arr);
+arr.pop()
+console.log(arr)
 
 
 
 
 
+console.log()
+// const arr1 = new Array(10);
+// typeof arr - object
+    // check for array 
+    // Array.isArray(arr)
+// const arr1 = new Array(10);
 
 
