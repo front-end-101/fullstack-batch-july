@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-card{
+    width: 200px;
+    padding: 10px;
+}
