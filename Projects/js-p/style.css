@@ -1,9 +1,12 @@
 body{
     display: flex;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
-.user-card{
+.card{
     width: 200px;
+    height: 200px;
+    border: 1px solid red;
     padding: 10px;
 }
